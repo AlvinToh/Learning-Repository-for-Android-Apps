@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/camerica_button"
+            android:layout_width="149dp"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:onClick="radioButtonClick"
+            android:text="Captain America" />
+
+        <RadioButton
+            android:id="@+id/ironman_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="radioButtonClick"
+            android:text="Iron Man" />
+
+        <RadioButton
+            android:id="@+id/spiderman_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="radioButtonClick"
+            android:text="Spider Man" />
+
+        <RadioButton
+            android:id="@+id/thor_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="radioButtonClick"
+            android:text="Thor" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/superhero_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/uniqueID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            />
+    </ScrollView>
+
+</LinearLayout>

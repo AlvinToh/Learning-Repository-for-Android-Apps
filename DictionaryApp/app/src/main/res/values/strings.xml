@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DictionaryApp</string>
+    <string-array name="staticList">
+        <item> Singapore </item>
+        <item> Darren </item>
+        <item> Yang </item>
+    </string-array>
+</resources>
